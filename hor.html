@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabel Ujung Oval</title>
+    <style>
+        table {
+            width: 100%;
+            /* 1. Wajib gunakan separate agar border-radius berfungsi */
+            border-collapse: separate; 
+            /* 2. Mengatur tingkat kelengkungan ujung tabel */
+            border-radius: 15px; 
+            /* 3. Menghilangkan jarak antar cell jika ingin terlihat menyatu */
+            border-spacing: 0; 
+            /* 4. Memastikan isi tabel tidak keluar dari area melengkung */
+            overflow: hidden; 
+            border: 2px solid #333;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Menghilangkan garis bawah pada baris terakhir agar tidak merusak lengkungan */
+        tr:last-child td {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th>Nama</th>
+            <th>Pekerjaan</th>
+        </tr>
+        <tr>
+            <td>Budi Silalahi</td>
+            <td>Web Developer</td>
+        </tr>
+        <tr>
+            <td>Siti Aminah</td>
+            <td>UI/UX Designer</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
